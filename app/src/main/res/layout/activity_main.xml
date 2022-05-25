@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kreml"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/headlineText"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="19">
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonJetoRossija"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/jetoRussia">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonShizoid"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/shizoid">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonMolchat"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/molchat">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaVedu"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaVedu">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonRasstreliaj"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/rasstreliaj">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaOtvechayu"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaOtvechayu">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonSmekh"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/smekh">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonKhvatit"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/khvatitJetoTerpet">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonACheUNego"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/aCheUNego">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonJetoLdpr"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/jetoLdpr">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonKhvatitKormit"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/khvatitKormit">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonINiktoNePomozhet"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/iNiktoNePomozhet">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonKtoTiTakoy"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/ktoTiTakoy">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonMyVanKhrebetPerelomim"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/myVanKhrebetPerelomim">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonPodlostGadost"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/podlostGadost">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonLuchshePomolchite"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/luchshePomolchite">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonProstoyVopros"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/prostoyVopros">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonPuskayKommunisti"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/puskayKommunistiOtvechayut">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonSlushayte"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/slushayte">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonSovestEstUVas"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/sovestEstUVas">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonSumasshedshiy"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/sumasshedshiy">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonTyPochemu"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/tyPochemu">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVasVsekh"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vasVsekh">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVotTak"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/votTak">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVsemDetyam"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vsemDetyam">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVyChtoSUmaSoshli"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vyChtoSUmaSoshli">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVyOskorblyaete"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vyOskorblyaete">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVySouchastniki"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vySouchastniki">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVyVseBessovesyniye"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vyVseBessovestniye">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonVyyditeVon"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/vyyditeVon">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaGovoruZamolchite"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaGovoruZamolchite">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaProtiv"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaProtiv">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaTakoy"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaTakoyKakoyYest">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaVykinu"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaVykinu">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonYaZanyat"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/yaZanyat">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonZaMenya"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/zaMenya">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Custom">
+
+                <Button
+                    android:id="@+id/buttonZvonok"
+                    style="@style/Base.Widget.AppCompat.Button.Custom"
+                    android:text="@string/zvonok">
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
